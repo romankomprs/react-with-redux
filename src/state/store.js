@@ -1,7 +1,7 @@
 import { createStore } from "redux";
 import reducers from "./reducers/index";
 
-const store = createStore(
-    recuders, 
+export const store = createStore(
+    reducers, 
     {},
 );
